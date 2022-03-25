@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Train Ticket</title>
 </head>
 <body>
+    <!-- Header -->
+    <header>
+        <div class="container-fluid bg-success text-center">
+            <div class="row py-4 border border-dark">
+                <div class="col-12 ">
+                    <h1 class="text-uppercase text-light"><i class=" fa-solid fa-train-subway"></i> train ticket</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class="container-fluid bg-success bg-opacity-25 ">
+            <div class="row text-center">
+                <div class="col-4 border border-dark py-2">
+                    <h2 class="text-danger">Nome del passeggero</h2>
+                    <p id="Name" class="fs-4"></p>
+                </div>
+                <div class="col-4 border border-dark py-2">
+                    <h2 class="text-danger">Et&aacute; del passeggero</h2>
+                    <p id="Age" class="fs-4"></p>
+                </div>
+                <div class="col-4 border border-dark py-2">
+                    <h2 class="text-danger">Chilometri percorsi</h2>
+                    <p id="Km" class="fs-4"></p>
+                </div>
+                <div class="col-12 border border-dark py-2">
+                    <h2 class="text-danger">Prezzo del biglietto</h2>
+                    <p id="Prezzo" class="fs-4"></p>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="./js/script.js"></script>
 </body>
 </html>
